@@ -1,0 +1,58 @@
+html {
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}
+
+.container-fluid {
+
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+#top-section {
+    margin-top: 70px;
+    background-color: black;
+    padding: 30px 120px;
+}
+
+input#sitcom-input {
+    margin-bottom: 10px;
+}
+
+input#add-sitcom {
+    font-family: 'KoHo', sans-serif;
+    font-weight: bold;
+}
+
+#sitcom-dump {
+    background: black;
+}
+
+.sitcom-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-color: red;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 28px;
+    font-family: 'KoHo', sans-serif;
+    font-weight: bold;
+}
+
+.sitcom {
+    padding: 10px;
+}
+
+#sitcom-view {
+    justify-content: space-evenly;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
